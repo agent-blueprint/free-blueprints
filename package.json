@@ -30,6 +30,7 @@
     "url": "https://github.com/agent-blueprint/free-blueprints"
   },
   "homepage": "https://agentblueprint.ai",
+  "mcpName": "io.github.agent-blueprint/free-blueprints",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.27.0",
     "zod": "^3.24.0"
