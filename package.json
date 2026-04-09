@@ -1,6 +1,6 @@
 {
   "name": "@agent-blueprint/free-blueprints",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Free MCP server with pre-built AI agent blueprints for common business processes. No signup required.",
   "type": "module",
   "bin": {
