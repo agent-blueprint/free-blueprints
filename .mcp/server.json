@@ -1,0 +1,28 @@
+{
+  "name": "agent-blueprint-free",
+  "display_name": "Agent Blueprint - Free AI Agent Blueprints",
+  "description": "Pre-built AI agent blueprints for common business processes. No signup, no API key. Get implementation-ready specs for RFx procurement automation, employee onboarding, and more.",
+  "homepage": "https://agentblueprint.ai",
+  "repository": "https://github.com/agent-blueprint/free-blueprints",
+  "license": "MIT",
+  "categories": ["ai", "automation", "enterprise", "agents"],
+  "tools": [
+    {
+      "name": "list_blueprints",
+      "description": "List available free AI agent blueprints for common business processes"
+    },
+    {
+      "name": "get_blueprint",
+      "description": "Download a full blueprint with agent specs, architecture, guardrails, and implementation guide"
+    }
+  ],
+  "transports": {
+    "stdio": {
+      "command": "npx",
+      "args": ["-y", "@agent-blueprint/free-blueprints"]
+    },
+    "streamable-http": {
+      "url": "https://free-blueprints-mcp.agentblueprint.workers.dev/mcp"
+    }
+  }
+}

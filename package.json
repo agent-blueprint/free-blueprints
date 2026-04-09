@@ -1,0 +1,42 @@
+{
+  "name": "@agent-blueprint/free-blueprints",
+  "version": "1.0.0",
+  "description": "Free MCP server with pre-built AI agent blueprints for common business processes. No signup required.",
+  "type": "module",
+  "bin": {
+    "free-blueprints-mcp": "dist/transports/stdio.js"
+  },
+  "main": "dist/transports/stdio.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "mcp",
+    "agent-blueprint",
+    "ai",
+    "blueprint",
+    "ai-agents",
+    "model-context-protocol",
+    "free"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agent-blueprint/free-blueprints"
+  },
+  "homepage": "https://agentblueprint.ai",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.5.0",
+    "wrangler": "^4.0.0"
+  }
+}
