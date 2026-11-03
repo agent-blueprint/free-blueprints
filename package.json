@@ -1,7 +1,7 @@
 {
   "name": "@agent-blueprint/free-blueprints",
-  "version": "1.0.1",
-  "description": "Free MCP server with pre-built AI agent blueprints for common business processes. No signup required.",
+  "version": "1.0.2",
+  "description": "Two free sample multi-agent blueprints (RFx procurement, employee onboarding) over MCP. No signup. For Agent Blueprint's main no-sign-in MCP server see https://agentblueprint.ai/mcp; to have your agent draw its own blueprint see https://agentblueprint.ai/personal.",
   "type": "module",
   "bin": {
     "free-blueprints-mcp": "dist/transports/stdio.js"
