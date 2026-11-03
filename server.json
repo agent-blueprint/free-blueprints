@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.agent-blueprint/free-blueprints",
-  "description": "Free AI agent blueprints for procurement and onboarding. No signup, no API key.",
+  "description": "Two sample multi-agent blueprints over MCP, no signup. Main server: agentblueprint.ai/mcp",
   "repository": {
     "url": "https://github.com/agent-blueprint/free-blueprints",
     "source": "github"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@agent-blueprint/free-blueprints",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "transport": {
         "type": "stdio"
       },
