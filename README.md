@@ -4,6 +4,12 @@ Pre-built AI agent blueprints for common business processes. No signup, no API k
 
 Any MCP-compatible coding agent can discover and consume these blueprints immediately.
 
+**Looking for something else from Agent Blueprint?**
+
+- To have your own coding agent draw a one-page blueprint of itself (what it can read, what it can change, who has to say yes), go to [agentblueprint.ai/personal](https://agentblueprint.ai/personal). Free, no sign-up.
+- For Agent Blueprint's main remote MCP server (measured agent cost benchmark, one-page check, access map), use `https://agentblueprint.ai/mcp`. No sign-in, read-only. Details at [agentblueprint.ai/agents](https://agentblueprint.ai/agents).
+- This repository is a smaller, older server with two sample multi-agent blueprints. It still works and is kept for people who use it.
+
 ## Available Blueprints
 
 | Blueprint | Agents | Pattern | Description |
@@ -65,7 +71,13 @@ Each blueprint includes:
 
 ## Want a custom blueprint?
 
-These free blueprints cover generic business processes. For blueprints tailored to your company (your systems, your data, your org structure, your financials), visit [agentblueprint.ai](https://app.agentblueprint.ai).
+These free blueprints cover generic business processes. Blueprints tailored to your company (your systems, your data, your org structure, your financials) are delivered through an engagement, not a sign-up. Get in touch at [agentblueprint.ai](https://agentblueprint.ai/#contact).
+
+Related:
+
+- [One-page agent template](https://agentblueprint.ai/agent-one-page-template): what an AI agent may do, what it costs and its ROI, on one page.
+- [Agent cost benchmark](https://agentblueprint.ai/agent-cost-benchmark): measured cost and tokens for ten everyday jobs on Claude Code and Codex.
+- [Open-source skills](https://github.com/agent-blueprint/agent-blueprint-skills): agent fundamentals, deployment method and blueprint patterns.
 
 ## License
 
